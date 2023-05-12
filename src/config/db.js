@@ -12,7 +12,7 @@ async function connectDB() {
     });
 
     // Lecture du fichier JSON
-    const rawData = fs.readFileSync("./src/mocks/archimonstres.json");
+    const rawData = fs.readFileSync("./src/data/archimonstres.json");
     const archimonstres = JSON.parse(rawData);
 
     // Vérification des modifications dans le fichier JSON
