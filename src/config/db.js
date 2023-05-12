@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 const fs = require("fs");
-const uri =
-  "mongodb+srv://swiichy:g5WWC2C48zplQHqo@cluster0.y0oklcm.mongodb.net/"; // Remplace avec l'URL de connexion à ta base de données MongoDB
+require("dotenv").config();
+
+const uri = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@cluster0.y0oklcm.mongodb.net/`;
 
 async function connectDB() {
   try {
