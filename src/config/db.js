@@ -15,17 +15,28 @@ async function connectDB() {
     const rawData = fs.readFileSync("./src/mocks/archimonstres.json");
     const archimonstres = JSON.parse(rawData);
 
-    // Insertion des données dans la base de données
-
-    await mongoose.connection
+    // Vérification des modifications dans le fichier JSON
+    const existingArchimonstres = await mongoose.connection
       .collection("archimonstres")
-      .estimatedDocumentCount(async (err, count) => {
-        if (!err && count === 0) {
-          await mongoose.connection
-            .collection("archimonstres")
-            .insertMany(archimonstres);
-        }
-      });
+      .find()
+      .toArray();
+
+    if (existingArchimonstres.length === 0) {
+      // Aucun archimonstre existant dans la base de données
+
+      // Insérer les données initiales dans la base de données
+      await mongoose.connection
+        .collection("archimonstres")
+        .insertMany(archimonstres);
+      console.log("Données initiales insérées dans la base de données");
+    } else if (existingArchimonstres.length < archimonstres.length) {
+      // Il y a eu des ajouts dans le fichier JSON
+
+      // Renvoyer toutes les données du fichier JSON
+      console.log("Des ajouts ont été détectés dans le fichier JSON");
+      console.log("Renvoi de la totalité des données du fichier JSON");
+      return archimonstres;
+    }
 
     console.log("Connexion à la base de données MongoDB établie");
   } catch (error) {
