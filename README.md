@@ -12,6 +12,16 @@ L'API Archimonstres est un service permettant de récupérer des informations su
 - Limitation du taux de requêtes pour éviter les abus
 - Gestion des erreurs et réponses appropriées aux clients
 
+## Routes de l'API
+
+L'API Archimonstres offre les routes suivantes pour accéder aux données des Archimonstres :
+
+- GET /api/archimonstres : Récupère tous les Archimonstres disponibles.
+
+- GET /api/archimonstres/etape/:step : Récupère les Archimonstres selon l'étape spécifiée. Remplacez :step par le numéro de l'étape souhaitée.
+
+- GET /api/archimonstres/nom/:name : Récupère les Archimonstres selon le nom partiel. Remplacez :name par une partie du nom recherché.
+
 ## Technologies utilisées
 
 - Node.js
