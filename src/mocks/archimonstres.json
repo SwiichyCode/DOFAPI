@@ -958,5 +958,761 @@
     "etape": 27,
     "zone": "Plaines de Cania",
     "sous-zone": "Plaines des Porkass"
+  },
+  {
+    "nom": "Akaka le Souillé",
+    "etape": 28,
+    "zone": "Île de Pandala",
+    "sous-zone": "Akwadala"
+  },
+  {
+    "nom": "Bebetto l'Intellectuel",
+    "etape": 28,
+    "zone": "Île de Pandala",
+    "sous-zone": "Akwadala"
+  },
+  {
+    "nom": "Corboyard l'Enigmatique",
+    "etape": 28,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Plage de Corail"
+  },
+  {
+    "nom": "Dragioli le Succulent",
+    "etape": 28,
+    "zone": "Amakna",
+    "sous-zone": "Sanctuaires des Dragoeufs"
+  },
+  {
+    "nom": "Kannémik le Maigre",
+    "etape": 28,
+    "zone": "Île de Moon",
+    "sous-zone": "Forêt des masques"
+  },
+  {
+    "nom": "Kannisterik le Forcené",
+    "etape": 28,
+    "zone": "Île de Moon",
+    "sous-zone": "Forêt des masques"
+  },
+  {
+    "nom": "Kwakamole l'Appétissant",
+    "etape": 28,
+    "zone": "Amakna",
+    "sous-zone": "Montagne des Craqueleurs"
+  },
+  {
+    "nom": "Kwaké le Piraté",
+    "etape": 28,
+    "zone": "Amakna",
+    "sous-zone": "Montagne des Craqueleurs"
+  },
+  {
+    "nom": "Kwakolak le Chocolaté",
+    "etape": 28,
+    "zone": "Amakna",
+    "sous-zone": "Montagne des Craqueleurs"
+  },
+  {
+    "nom": "Kwakwatique le Trempé",
+    "etape": 28,
+    "zone": "Amakna",
+    "sous-zone": "Montagne des Craqueleurs"
+  },
+  {
+    "nom": "Moumoute la Douce",
+    "etape": 28,
+    "zone": "Baie de Sufokia",
+    "sous-zone": "Rivage sufokien"
+  },
+  {
+    "nom": "Ougaould le Parasite",
+    "etape": 28,
+    "zone": "Brakmar",
+    "sous-zone": "Cimetière des Torturés"
+  },
+  {
+    "nom": "Palmbytch la Bronzée",
+    "etape": 28,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Plage de Corail"
+  },
+  {
+    "nom": "Parapadkouï l'Émasculé",
+    "etape": 28,
+    "zone": "Île de Pandala",
+    "sous-zone": "Terrdala"
+  },
+  {
+    "nom": "Porsalé le Râleur",
+    "etape": 28,
+    "zone": "Labyrinthe du Dragon Cochon",
+    "sous-zone": "Labyrinthe du Dragon Cochon"
+  },
+  {
+    "nom": "Ratlbol l'Aigri",
+    "etape": 28,
+    "zone": "Amakna",
+    "sous-zone": "Souterrains du Château d'Amakna"
+  },
+  {
+    "nom": "Rauligo le Sale",
+    "etape": 28,
+    "zone": "Baie de Sufokia",
+    "sous-zone": "Rivage sufokien"
+  },
+  {
+    "nom": "Sarkastik l'Incompris",
+    "etape": 28,
+    "zone": "Île de Pandala",
+    "sous-zone": "Akwadala"
+  },
+  {
+    "nom": "Serpistule le Purulent",
+    "etape": 28,
+    "zone": "Île du Minotoror",
+    "sous-zone": "Labyrinthe du Minotoror"
+  },
+  {
+    "nom": "Vétaurine L'énergisé",
+    "etape": 28,
+    "zone": "Plaines de Cania",
+    "sous-zone": "Routes Rocailleuses"
+  },
+  {
+    "nom": "Barebourd le Comte",
+    "etape": 29,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Arche d'Otomaï"
+  },
+  {
+    "nom": "Caboume l'Artilleur",
+    "etape": 29,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Chemin du Crâne"
+  },
+  {
+    "nom": "Chiendanlémin l'Illusionniste",
+    "etape": 29,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Jungle Obscure"
+  },
+  {
+    "nom": "Dragkouine la Déguisée",
+    "etape": 29,
+    "zone": "Amakna",
+    "sous-zone": "Presqu'île des Dragoeufs"
+  },
+  {
+    "nom": "Dragmoclaiss le Fataliste",
+    "etape": 29,
+    "zone": "Amakna",
+    "sous-zone": "Presqu'île des Dragoeufs"
+  },
+  {
+    "nom": "Dragnostik le Sceptique",
+    "etape": 29,
+    "zone": "Amakna",
+    "sous-zone": "Presqu'île des Dragoeufs"
+  },
+  {
+    "nom": "Dragstayr le Fonceur",
+    "etape": 29,
+    "zone": "Amakna",
+    "sous-zone": "Presqu'île des Dragoeufs"
+  },
+  {
+    "nom": "Fandanleuil le Précis",
+    "etape": 29,
+    "zone": "Brakmar",
+    "sous-zone": "Bordure de Brakmar"
+  },
+  {
+    "nom": "Fanlabiz le Véloce",
+    "etape": 29,
+    "zone": "Brakmar",
+    "sous-zone": "Bordure de Brakmar"
+  },
+  {
+    "nom": "Fantoch le Pantin",
+    "etape": 29,
+    "zone": "Brakmar",
+    "sous-zone": "Bordure de Brakmar"
+  },
+  {
+    "nom": "Fantrask la Rêveuse",
+    "etape": 29,
+    "zone": "Brakmar",
+    "sous-zone": "Bordure de Brakmar"
+  },
+  {
+    "nom": "Koakofrui le Confit",
+    "etape": 29,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Canyon sauvage"
+  },
+  {
+    "nom": "Koamaembair le Coulant",
+    "etape": 29,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Canyon sauvage"
+  },
+  {
+    "nom": "Koarmit la Batracienne",
+    "etape": 29,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Canyon sauvage"
+  },
+  {
+    "nom": "Koaskette la Chapelière",
+    "etape": 29,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Canyon sauvage"
+  },
+  {
+    "nom": "Nakuneuye le Borgne",
+    "etape": 29,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Chemin du Crâne"
+  },
+  {
+    "nom": "Nerdeubeu le Flagellant",
+    "etape": 29,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Jungle Obscure"
+  },
+  {
+    "nom": "Ratéhaifaim le Professeur",
+    "etape": 29,
+    "zone": "Amakna",
+    "sous-zone": "Souterrains du Château d'Amakna"
+  },
+  {
+    "nom": "Sparoket le Lanceur",
+    "etape": 29,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Arche d'Otomaï"
+  },
+  {
+    "nom": "Tilolo la Bien Moulée",
+    "etape": 29,
+    "zone": "Île de Pandala",
+    "sous-zone": "Terrdala"
+  },
+  {
+    "nom": "Alhoui le Répondeur",
+    "etape": 30,
+    "zone": "Plaines de Cania",
+    "sous-zone": "Dents de Pierre"
+  },
+  {
+    "nom": "Bonpake le Chavireur",
+    "etape": 30,
+    "zone": "Île de Pandala",
+    "sous-zone": "Terrdala"
+  },
+  {
+    "nom": "Bourde le Maladroit",
+    "etape": 30,
+    "zone": "Plaines de Cania",
+    "sous-zone": "Champs de Cania"
+  },
+  {
+    "nom": "Crathdogue le Cruel",
+    "etape": 30,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Plaines herbeuses"
+  },
+  {
+    "nom": "Crok le Beau",
+    "etape": 30,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Marécages nauséabonds"
+  },
+  {
+    "nom": "Dragonienne l'Econome",
+    "etape": 30,
+    "zone": "Amakna",
+    "sous-zone": "Sanctuaires des Dragoeufs"
+  },
+  {
+    "nom": "Félyssion la Gourmande",
+    "etape": 30,
+    "zone": "Plaines de Cania",
+    "sous-zone": "Dents de Pierre"
+  },
+  {
+    "nom": "Fouflay le Retombé",
+    "etape": 30,
+    "zone": "Plaines de Cania",
+    "sous-zone": "Routes Rocailleuses"
+  },
+  {
+    "nom": "Guerrite le Veilleur",
+    "etape": 30,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Vallée de la Morh'Kitu"
+  },
+  {
+    "nom": "Kanasukr le Mielleux",
+    "etape": 30,
+    "zone": "Plaines de Cania",
+    "sous-zone": "Routes Rocailleuses"
+  },
+  {
+    "nom": "Kanibière l'Encordée",
+    "etape": 30,
+    "zone": "Plaines de Cania",
+    "sous-zone": "Dents de Pierre"
+  },
+  {
+    "nom": "Kido l'Âtre",
+    "etape": 30,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Plaines herbeuses"
+  },
+  {
+    "nom": "Kilimanj'haro le Grimpeur",
+    "etape": 30,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Plaines herbeuses"
+  },
+  {
+    "nom": "Larvaloeil l'Émue",
+    "etape": 30,
+    "zone": "Plaines de Cania",
+    "sous-zone": "Champs de Cania"
+  },
+  {
+    "nom": "Mufguedin le Suprême",
+    "etape": 30,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Plaines herbeuses"
+  },
+  {
+    "nom": "Muloufok l'Hilarant",
+    "etape": 30,
+    "zone": "Landes de Sidimote",
+    "sous-zone": "Hauts des Hurlements"
+  },
+  {
+    "nom": "Orfélyre le Charmeur",
+    "etape": 30,
+    "zone": "Plaines de Cania",
+    "sous-zone": "Dents de Pierre"
+  },
+  {
+    "nom": "Pantacour le Long",
+    "etape": 30,
+    "zone": "Plaines de Cania",
+    "sous-zone": "Dents de Pierre"
+  },
+  {
+    "nom": "Souristiti l'Immortalisée",
+    "etape": 30,
+    "zone": "Plaines de Cania",
+    "sous-zone": "Champs de Cania"
+  },
+  {
+    "nom": "Toufou le Benêt",
+    "etape": 30,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Plaines herbeuses"
+  },
+  {
+    "nom": "Abrakanette l'Encapsulé",
+    "etape": 31,
+    "zone": "Forêt des Abraknydes",
+    "sous-zone": "Forêt Sombre"
+  },
+  {
+    "nom": "Abraklette le Fondant",
+    "etape": 31,
+    "zone": "Forêt des Abraknydes",
+    "sous-zone": "Forêt Sombre"
+  },
+  {
+    "nom": "Bitoven le Musicien",
+    "etape": 31,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Jungle Obscure"
+  },
+  {
+    "nom": "Brouste l'Humiliant",
+    "etape": 31,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Jungle Obscure"
+  },
+  {
+    "nom": "Craquecrac l'Endurant",
+    "etape": 31,
+    "zone": "Plaines de Cania",
+    "sous-zone": "Plaines Rocheuses"
+  },
+  {
+    "nom": "Diskord le Belliqueux",
+    "etape": 31,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Village de la Canopée"
+  },
+  {
+    "nom": "Dragdikal le Décisif",
+    "etape": 31,
+    "zone": "Amakna",
+    "sous-zone": "Sanctuaires des Dragoeufs"
+  },
+  {
+    "nom": "Dragobert le Monarque",
+    "etape": 31,
+    "zone": "Amakna",
+    "sous-zone": "Sanctuaires des Dragoeufs"
+  },
+  {
+    "nom": "Fossamoel le Juteux",
+    "etape": 31,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Cimetière primitif"
+  },
+  {
+    "nom": "Gloubibou le Gars",
+    "etape": 31,
+    "zone": "Île de Moon",
+    "sous-zone": "Jungle interdite"
+  },
+  {
+    "nom": "Inopenope le Négatif",
+    "etape": 31,
+    "zone": "Île de Pandala",
+    "sous-zone": "Aerdala"
+  },
+  {
+    "nom": "Koamag'oel le Défiguré",
+    "etape": 31,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Cimetière primitif"
+  },
+  {
+    "nom": "Koasossyal le Psychopathe",
+    "etape": 31,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Forêt de Kaliptus"
+  },
+  {
+    "nom": "Lichangora l'Immaculée",
+    "etape": 31,
+    "zone": "Île de Pandala",
+    "sous-zone": "Aerdala"
+  },
+  {
+    "nom": "Meuroup le Prêtre",
+    "etape": 31,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Tronc de l'Arbre Hakam"
+  },
+  {
+    "nom": "Pékeutar le Tireur",
+    "etape": 31,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Lacs enchantés"
+  },
+  {
+    "nom": "Piradain le Pingre",
+    "etape": 31,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Lacs enchantés"
+  },
+  {
+    "nom": "Rooroku l'Imposant",
+    "etape": 31,
+    "zone": "Île de Pandala",
+    "sous-zone": "Aerdala"
+  },
+  {
+    "nom": "Tétonée la Plantureuse",
+    "etape": 31,
+    "zone": "Île de Pandala",
+    "sous-zone": "Terrdala"
+  },
+  {
+    "nom": "Warkolad l'Etreinte",
+    "etape": 31,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Canyon sauvage"
+  },
+  {
+    "nom": "Abrakine le Sombre",
+    "etape": 32,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Jungle Obscure"
+  },
+  {
+    "nom": "Bouliver le Géant",
+    "etape": 32,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Tourbière sans fond"
+  },
+  {
+    "nom": "Drageaufol la Joyeuse",
+    "etape": 32,
+    "zone": "Amakna",
+    "sous-zone": "Village des Dragoeufs"
+  },
+  {
+    "nom": "Dragminster le Magicien",
+    "etape": 32,
+    "zone": "Amakna",
+    "sous-zone": "Village des Dragoeufs"
+  },
+  {
+    "nom": "Dragtarus le Bellâtre",
+    "etape": 32,
+    "zone": "Amakna",
+    "sous-zone": "Village des Dragoeufs"
+  },
+  {
+    "nom": "Drakolage le Tentateur",
+    "etape": 32,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Canyon sauvage"
+  },
+  {
+    "nom": "Draquetteur le Voleur",
+    "etape": 32,
+    "zone": "Amakna",
+    "sous-zone": "Village des Dragoeufs"
+  },
+  {
+    "nom": "Ecorfé la Vive",
+    "etape": 32,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Jungle Obscure"
+  },
+  {
+    "nom": "Fangshui la Dysorthographiée",
+    "etape": 32,
+    "zone": "Île de Pandala",
+    "sous-zone": "Aerdala"
+  },
+  {
+    "nom": "Faufoll la Joyeuse",
+    "etape": 32,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Vallée de la Morh'Kitu"
+  },
+  {
+    "nom": "Floanna la Blonde",
+    "etape": 32,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Jungle Obscure"
+  },
+  {
+    "nom": "Gastroth la Contagieuse",
+    "etape": 32,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Village de la Canopée"
+  },
+  {
+    "nom": "Guerumoth le Collant",
+    "etape": 32,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Village de la Canopée"
+  },
+  {
+    "nom": "Koalaboi le Calorifère",
+    "etape": 32,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Vallée de la Morh'Kitu"
+  },
+  {
+    "nom": "Koalvissie le Chauve",
+    "etape": 32,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Vallée de la Morh'Kitu"
+  },
+  {
+    "nom": "Mamakomou l'Âge",
+    "etape": 32,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Canyon sauvage"
+  },
+  {
+    "nom": "Momikonos la Bandelette",
+    "etape": 32,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Cimetière primitif"
+  },
+  {
+    "nom": "Pétarfoutu le Mouillé",
+    "etape": 32,
+    "zone": "Île de Pandala",
+    "sous-zone": "Feudala"
+  },
+  {
+    "nom": "Tourbiket le Virevoletant",
+    "etape": 32,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Tourbière sans fond"
+  },
+  {
+    "nom": "Wara l'Amer",
+    "etape": 32,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Vallée de la Morh'Kitu"
+  },
+  {
+    "nom": "Abrinos le Clair",
+    "etape": 33,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Tronc de l'Arbre Hakam"
+  },
+  {
+    "nom": "Bigbadaboum l'Élémentaire",
+    "etape": 33,
+    "zone": "Île de Pandala",
+    "sous-zone": "Feudala"
+  },
+  {
+    "nom": "Chamiléro le Malchanceux",
+    "etape": 33,
+    "zone": "Landes de Sidimote",
+    "sous-zone": "Domaine des Fungus"
+  },
+  {
+    "nom": "Chamoute le Duveteux",
+    "etape": 33,
+    "zone": "Landes de Sidimote",
+    "sous-zone": "Caverne des Fungus"
+  },
+  {
+    "nom": "Champmé le Méchant",
+    "etape": 33,
+    "zone": "Landes de Sidimote",
+    "sous-zone": "Caverne des Fungus"
+  },
+  {
+    "nom": "Champolyon le Polyglotte",
+    "etape": 33,
+    "zone": "Landes de Sidimote",
+    "sous-zone": "Caverne des Fungus"
+  },
+  {
+    "nom": "Champoul l'Illuminé",
+    "etape": 33,
+    "zone": "Landes de Sidimote",
+    "sous-zone": "Caverne des Fungus"
+  },
+  {
+    "nom": "Crachefouxtre le Surpris",
+    "etape": 33,
+    "zone": "Île de Pandala",
+    "sous-zone": "Feudala"
+  },
+  {
+    "nom": "Don Kizoth l'Obstiné",
+    "etape": 33,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Village de la Canopée"
+  },
+  {
+    "nom": "Jiankor le Radoteur",
+    "etape": 33,
+    "zone": "Île de Grobe",
+    "sous-zone": "Cimetière de Grobe"
+  },
+  {
+    "nom": "Kaskapointhe la Couverte",
+    "etape": 33,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Tronc de l'Arbre Hakam"
+  },
+  {
+    "nom": "Maître Koantik le Théoricien",
+    "etape": 33,
+    "zone": "Montagnes des Koalaks",
+    "sous-zone": "Cimetière primitif"
+  },
+  {
+    "nom": "Onabuémangé la Rassasiée",
+    "etape": 33,
+    "zone": "Île de Grobe",
+    "sous-zone": "Cimetière de Grobe"
+  },
+  {
+    "nom": "Poolopo la Traditionnelle",
+    "etape": 33,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Tronc de l'Arbre Hakam"
+  },
+  {
+    "nom": "Seripoth l'Ennemi",
+    "etape": 33,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Village de la Canopée"
+  },
+  {
+    "nom": "Tambouille le Gastronome",
+    "etape": 33,
+    "zone": "Île de Grobe",
+    "sous-zone": "Cimetière de Grobe"
+  },
+  {
+    "nom": "Toutouf le Velu",
+    "etape": 33,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Tronc de l'Arbre Hakam"
+  },
+  {
+    "nom": "Tromplamor le Survivant",
+    "etape": 33,
+    "zone": "Landes de Sidimote",
+    "sous-zone": "Domaine des Fungus"
+  },
+  {
+    "nom": "Trooyé l'Oxydé",
+    "etape": 33,
+    "zone": "Plaines de Cania",
+    "sous-zone": "Bois de Litneg"
+  },
+  {
+    "nom": "Tsucékoi la Colporteuse",
+    "etape": 33,
+    "zone": "Île de Grobe",
+    "sous-zone": "Cimetière de Grobe"
+  },
+  {
+    "nom": "Bakaglace le Congelé",
+    "etape": 34,
+    "zone": "Île de Grobe",
+    "sous-zone": "Mont des Tombeaux"
+  },
+  {
+    "nom": "Kaonucléair l'Instable",
+    "etape": 34,
+    "zone": "Île de Grobe",
+    "sous-zone": "Mont des Tombeaux"
+  },
+  {
+    "nom": "Madgang le Docteur",
+    "etape": 34,
+    "zone": "Île de Grobe",
+    "sous-zone": "Mont des Tombeaux"
+  },
+  {
+    "nom": "Roy le Merlin",
+    "etape": 34,
+    "zone": "Île d'Otomaï",
+    "sous-zone": "Tourbière sans fond"
+  },
+  {
+    "nom": "Tronquette la Réduite",
+    "etape": 34,
+    "zone": "Île de Pandala",
+    "sous-zone": "Feudala"
+  },
+  {
+    "nom": "Tsumani l'Inondeur",
+    "etape": 34,
+    "zone": "Île de Grobe",
+    "sous-zone": "Mont des Tombeaux"
   }
 ]
