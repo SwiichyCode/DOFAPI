@@ -19,6 +19,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/api", limiter);
 
 app.use("/", (req, res, next) => {
+  if (req.originalUrl === "/api/archimonstres") {
+    return next();
+  }
+
   res.redirect("/api/archimonstres");
 });
 
