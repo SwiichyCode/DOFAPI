@@ -7,7 +7,7 @@ const port = 3000;
 
 const limiter = rateLimit({
   windowMs: 60 * 1000, // Période en millisecondes (1 minute)
-  max: 100, // Nombre maximal de requêtes autorisées
+  max: 1000, // Nombre maximal de requêtes autorisées
   keyGenerator: (req) => {
     return req.ip; // Utilise l'adresse IP de l'utilisateur comme identifiant
   },
