@@ -20,6 +20,8 @@ app.use("/api", limiter);
 
 app.use("/", (req, res, next) => {
   res.redirect("/api/archimonstres");
+
+  next();
 });
 
 require("./routes/archimonstres")(app);
