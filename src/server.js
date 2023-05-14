@@ -18,14 +18,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use("/api", limiter);
 
-app.use("/", (req, res, next) => {
-  if (req.originalUrl === "/api/archimonstres") {
-    return next();
-  }
-
-  res.redirect("/api/archimonstres");
-});
-
 require("./routes/archimonstres")(app);
 
 app.use((err, req, res, next) => {
