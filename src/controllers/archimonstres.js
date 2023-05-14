@@ -32,10 +32,18 @@ exports.getArchimonstresByStep = async (req, res) => {
 exports.getArchimonstresByName = async (req, res) => {
   const name = req.params.name;
 
+  console.log(name);
+
   try {
     const archimonstres = await Archimonstre.find({
-      nom: { $regex: name, $options: "i" },
+      nom: { $regex: `.*${name}.*`, $options: "i" },
     });
+
+    if (archimonstres.length === 0) {
+      return res
+        .status(404)
+        .json({ error: `Aucun archimonstre trouvé avec le nom '${name}'` });
+    }
     res.json(archimonstres);
   } catch (error) {
     console.error(
