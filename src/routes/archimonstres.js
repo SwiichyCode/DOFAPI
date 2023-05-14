@@ -18,4 +18,12 @@ module.exports = function (app) {
     "/api/archimonstres/nom/:name",
     archimonstresController.getArchimonstresByName
   );
+  app.get(
+    "/api/archimonstres/zone/:zone",
+    archimonstresController.getArchimonstresByZone
+  );
+  app.get(
+    "/api/archimonstres/sous-zone/:sousZone",
+    archimonstresController.getArchimonstresBySousZone
+  );
 };

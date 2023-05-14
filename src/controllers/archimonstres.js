@@ -55,3 +55,41 @@ exports.getArchimonstresByName = async (req, res) => {
       .json({ error: "Erreur lors de la récupération des données" });
   }
 };
+
+exports.getArchimonstresByZone = async (req, res) => {
+  const zone = req.params.zone;
+
+  try {
+    const archimonstres = await Archimonstre.find({
+      zone: { $regex: new RegExp(zone, "i") },
+    });
+    res.json(archimonstres);
+  } catch (error) {
+    console.error(
+      `Erreur lors de la récupération des Archimonstres de la zone ${zone}`,
+      error
+    );
+    res
+      .status(500)
+      .json({ error: "Erreur lors de la récupération des données" });
+  }
+};
+
+exports.getArchimonstresBySousZone = async (req, res) => {
+  const sousZone = req.params.sousZone;
+
+  try {
+    const archimonstres = await Archimonstre.find({
+      sousZone: { $regex: new RegExp(sousZone, "i") },
+    });
+    res.json(archimonstres);
+  } catch (error) {
+    console.error(
+      `Erreur lors de la récupération des Archimonstres de la sous-zone ${sousZone}`,
+      error
+    );
+    res
+      .status(500)
+      .json({ error: "Erreur lors de la récupération des données" });
+  }
+};
