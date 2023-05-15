@@ -1,4 +1,5 @@
 const archimonstresController = require("../controllers/archimonstres");
+const tokenController = require("../controllers/webToken");
 
 module.exports = function (app) {
   app.use(function (req, res, next) {
@@ -9,7 +10,11 @@ module.exports = function (app) {
     next();
   });
 
-  app.get("/api/archimonstres", archimonstresController.getAllArchimonstres);
+  app.get(
+    "/api/archimonstres",
+    tokenController.verifyToken,
+    archimonstresController.getAllArchimonstres
+  );
   app.get(
     "/api/archimonstres/etape/:step",
     archimonstresController.getArchimonstresByStep

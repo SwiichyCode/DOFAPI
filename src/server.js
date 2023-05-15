@@ -19,6 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/api", limiter);
 
 require("./routes/archimonstres")(app);
+require("./routes/webToken")(app);
 
 app.use((err, req, res, next) => {
   if (err instanceof rateLimit.RateLimitExceeded) {
