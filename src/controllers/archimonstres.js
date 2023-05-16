@@ -1,4 +1,5 @@
 const Archimonstre = require("../models/archimonstres");
+const { MIN_STEP, MAX_STEP } = require("../constants");
 
 exports.getAllArchimonstres = async (req, res) => {
   try {
@@ -13,7 +14,19 @@ exports.getAllArchimonstres = async (req, res) => {
 };
 
 exports.getArchimonstresByStep = async (req, res) => {
-  const step = req.params.step;
+  const step = parseInt(req.params.step, 10);
+
+  if (!Number.isInteger(step)) {
+    return res.status(400).json({
+      error: "Étape invalide veuillez renseigner une valeur numérique",
+    });
+  }
+
+  if (step < MIN_STEP || step > MAX_STEP) {
+    return res.status(400).json({
+      error: `Étape invalide veuillez renseigner une valeur entre ${MIN_STEP}-${MAX_STEP}`,
+    });
+  }
 
   try {
     const archimonstres = await Archimonstre.find({ etape: step });
