@@ -12,7 +12,7 @@ module.exports = function (app) {
 
   app.get(
     "/api/archimonstres",
-    tokenController.verifyToken,
+    // tokenController.verifyToken,
     archimonstresController.getAllArchimonstres
   );
   app.get(

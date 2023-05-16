@@ -32,8 +32,6 @@ exports.getArchimonstresByStep = async (req, res) => {
 exports.getArchimonstresByName = async (req, res) => {
   const name = req.params.name;
 
-  console.log(name);
-
   try {
     const archimonstres = await Archimonstre.find({
       nom: { $regex: `.*${name}.*`, $options: "i" },
