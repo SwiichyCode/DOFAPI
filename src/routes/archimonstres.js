@@ -1,5 +1,5 @@
 const archimonstresController = require("../controllers/archimonstres");
-const tokenController = require("../controllers/webToken");
+const tokenMiddleware = require("../middlewares/verifyToken");
 
 module.exports = function (app) {
   app.use(function (req, res, next) {
@@ -12,7 +12,7 @@ module.exports = function (app) {
 
   app.get(
     "/api/archimonstres",
-    // tokenController.verifyToken,
+    tokenMiddleware.verifyToken,
     archimonstresController.getAllArchimonstres
   );
   app.get(

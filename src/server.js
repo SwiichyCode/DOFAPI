@@ -20,6 +20,7 @@ app.use("/api", limiter);
 
 require("./routes/archimonstres")(app);
 require("./routes/webToken")(app);
+require("./routes/auth")(app);
 
 app.use((err, req, res, next) => {
   if (err instanceof rateLimit.RateLimitExceeded) {
