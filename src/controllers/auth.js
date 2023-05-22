@@ -1,6 +1,7 @@
 const bcrypt = require("bcrypt");
 const User = require("../models/user");
 const jwt = require("jsonwebtoken");
+const uuid = require("uuid");
 
 exports.register = async (req, res) => {
   const { email, password } = req.body;
@@ -14,7 +15,8 @@ exports.register = async (req, res) => {
 
     // Create a new user with the provided email and hashed password
     const hashedPassword = await bcrypt.hash(password, 8);
-    const newUser = new User({ email, password: hashedPassword });
+    const id = uuid.v4();
+    const newUser = new User({ id: id, email, password: hashedPassword });
     await newUser.save();
 
     res.json({ message: "User registered successfully" });
@@ -42,6 +44,8 @@ exports.login = async (req, res) => {
 
     res.send({
       message: "User logged in successfully",
+      userId: user.id,
+      userEmail: user.email,
       accessToken: token,
     });
   } catch (error) {

@@ -21,7 +21,8 @@
     "jsonwebtoken": "^9.0.0",
     "mongodb": "^5.4.0",
     "mongoose": "^7.1.1",
-    "npm": "^9.6.6"
+    "npm": "^9.6.6",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"

@@ -10,4 +10,5 @@ module.exports = function (app) {
   });
 
   app.post("/api/token/create", webTokenController.generateToken);
+  app.post("/api/token/get", webTokenController.getToken);
 };
