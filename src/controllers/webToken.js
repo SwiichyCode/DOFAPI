@@ -39,6 +39,9 @@ exports.getToken = (req, res) => {
         return res.status(500).json({ message: error });
       }
 
-      res.json({ token: data.token });
+      res.json({
+        token: data.token,
+        tokenExpirationDate: data.tokenExpirationDate,
+      });
     });
 };
