@@ -10,9 +10,16 @@ exports.generateToken = (req, res) => {
     { expiresIn: TOKEN_EXPIRATION }
   );
 
+  const tokenExpirationReformatted = Number(TOKEN_EXPIRATION.slice(0, -1));
+
+  const tokenExpirationDate = new Date();
+  tokenExpirationDate.setDate(
+    tokenExpirationDate.getDate() + tokenExpirationReformatted
+  );
+
   mongoose.connection.collection("users").findOneAndUpdate(
     { id: req.body.userId },
-    { $set: { token } },
+    { $set: { token, tokenExpirationDate } },
 
     (error, data) => {
       if (error) {

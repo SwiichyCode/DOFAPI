@@ -22,13 +22,13 @@ require("./routes/archimonstres")(app);
 require("./routes/webToken")(app);
 require("./routes/auth")(app);
 
-app.use((err, req, res, next) => {
-  if (err instanceof rateLimit.RateLimitExceeded) {
-    res.status(429).send("Too many requests");
-  } else {
-    next(err);
-  }
-});
+// app.use((err, req, res, next) => {
+//   if (err instanceof rateLimit.RateLimitExceeded) {
+//     res.status(429).send("Too many requests");
+//   } else {
+//     next(err);
+//   }
+// });
 
 app.listen(port, () => {
   console.log(`Le serveur écoute sur le port ${port}`);
